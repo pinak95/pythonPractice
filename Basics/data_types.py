@@ -73,3 +73,14 @@ print('\nThe absolute value of -10 is:', abs(i_add(-11)))
 """ To print the round value of a number we can use the round() function
     round() function returns the nearest integer value of a number """
 print('The round value of 9.24897/2 when we just print the first 2 decimal places: ', round(i_div(9.24897), 2))
+
+# To cast a string to integer we can use int()
+
+num_1 = '10'
+num_2 = '20'
+
+# This will print 1020
+print(num_1 + num_2)
+
+# This will print 30 as it should
+print(int(num_1) + int(num_2))
